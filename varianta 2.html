@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="studi.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="all">
+    <div class="bord">
+        <table cellspacing="0">
+            <tr>
+                <td>Facturi</td>
+                <td>Proforme</td>
+                <td class="main">Chitante</td>
+                <td>Avize</td>
+                <td>NIR</td>
+                <td>Bon de cons.</td>
+                <td>Bon de transfer</td>
+                <td class="inl">
+                    <button > < </button> 
+                    <button > > </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="contentall">
+        <div class="unit">
+            <h3>Unitare</h3>
+            <hr>
+        </div>
+        <div class="info1">
+            <select name="alimentare" id="1" class="alimentare">
+                <option value="1"><p>S.C ALIMENTARA S.R.L</p></option>
+                <option value="2"><p>S.C OLARIA S.R.L</p></option>
+                <option value="3"><p>S.C JUCARIA S.R.L</p></option>
+            </select>
+            <button class="greenplus"> <img src="43-433845_ambox-emblem-plus-green-plus-symbol.png" alt="" > Adauga</button>
+            <button class="confirm"><img src="seen-2524761-2140514.webp" alt="">Modifica</button>
+        </div>
+        <div class="info2">
+            <table cellspacing = "0">
+                <tr class="cif">
+                    <td class="right">C.I.F :</td>
+                    <td><input type="text" placeholder="RO123456789" class="nr1"></td>
+                    <td >Nr de inreg. la Reg. Com.</td>
+                    <td ><input type="text" placeholder="J12/3456/2012" class="nr2"></td>
+                </tr>
+                <tr>
+                    <td>Adresa :</td>
+                    <td colspan="3"><input type="text" placeholder="STR.STRADA NR 1. 1,LOCALITATEA, JUDETUL, ROMANIA" class="nr3"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="info3">
+            <table>
+                <tr>
+                    <td><h3>Formular implicit</h3> <hr></td>
+                    <td><h3>Serie/nr.de.inreg.implicit:</h3> <hr></td>
+                </tr>
+                <tr>
+                    <td class="t1">
+                        <select name="ch_univ_1" id="1" class="ch_un">
+                            <option value="1"><p>ch_univ_1</p></option>
+                            <option value="2"><p>123</p></option>
+                            <option value="3"><p>456</p></option>
+                        </select>
+                    </td>
+                    <td class="t2">
+                        <select name="[CHIT_NR]" id="1" class="nrchit">
+                            <option value="1"><p>[CHIT_NR]</p></option>
+                            <option value="2"><p>123</p></option>
+                            <option value="3"><p>456</p></option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="info4">
+            <h3>Casa de marcat</h3> <hr>
+                <div class="last">
+                    <select name="sam4s" id="1" class="sam">
+                        <option value="1"><p>SAM4S</p></option>
+                        <option value="2"><p>123</p></option>
+                        <option value="3"><p>456</p></option>
+                    </select>
+                    <span>Jurnal erori : <input type="text" placeholder="C:\FORIT SOlutions\FORIT - Forms\cmlog\jurnal_erori_cm.log" class="sam2"><button>...</button></span>
+                </div>
+        </div>
+        <div class="info5">
+            <div class="checkboc">
+                <input type="checkbox" name="var1" id="1">
+                <label for="var">Validare extinsa : operatorul trebuie sa introduca numarul bonului fiscal tiparit</label><br>
+                <input type="checkbox" name="var2" id="2">
+                <label for="var2">Deschiderea sertar dupa nota de plata (ACTIVA , SAM4S, TOTAL)</label><br>
+                <input type="checkbox" name="var3" id="3">
+                <label for="var3">Deschiderea sertar inainte de bon fiscal (ACTIVA , SAM4S, TOTAL)</label><br>
+                <input type="checkbox" name="var4" id="4" checked>
+                <label for="var4">Confirmare data/ora inaintea deschiderei interfetei de vanzare</label>
+            </div>
+        </div>
+        <div class="info6">
+            <h3>Afisaj pentru client</h3> <hr>
+            <p>Port : 
+                <select name="com" id="1">
+                    <option value="1">COM2</option>
+                    <option value="2">COM1</option>
+                </select>
+            </p>
+        </div>
+    </div>
+    <div class="save">
+        <button><img src="Paomedia-Small-N-Flat-Floppy.ico" alt="">Salveaza</button>
+        <button><img src="images.png" alt="">Renunta</button>
+    </div>
+</div>
+</body>
+</html>
